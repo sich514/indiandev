@@ -1,0 +1,109 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/98.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>$DEV</title>
+    <meta name="description" content="DEV">
+    <link rel="icon" type="image/png" href="images/favicon-48x48.png" sizes="48x48">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="shortcut icon" href="images/favicon-48x48.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta property="og:title" content="$DEV">   
+    <meta property="og:description" content="Indian DEV>
+    <meta property="og:url" content="https://indiandev.fun">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/preview.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* CSS to style the video background */
+        .background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the video covers the entire screen */
+            z-index: -1; /* Places the video behind other content */
+        }
+    </style>
+</head>
+<body>
+    <!-- Video background element -->
+    <video class="background-video" autoplay="" muted="" loop="">
+        <source src="media/1016.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
+    <style>
+        /* Default style */
+        #draggable-window-6 {
+            width: 600px; /* Set the default width */
+            left: 50%;
+            top: 50%;
+            z-index: 1;
+        }
+    
+        /* Media query for mobile devices */
+        @media only screen and (max-width: 768px) {
+            #draggable-window-6 {
+                width: 350px; /* Change the width to 200px on mobile devices */
+            }
+        }
+    </style>
+    
+    <div id="draggable-window-6" class="window">
+        <div class="title-bar">
+            <div class="title-bar-text">Window — $DEV</div>
+            <div class="title-bar-controls">
+                <button id="close-button" aria-label="Close">X</button>
+            </div>
+        </div>
+        <div class="window-body">
+            <p>Hello, my friends! Ma name is Dev, surname Based. I’m livin’ in Mumbai, and I’m a very big programmer, yaar, you know? I’m respectin' cryptocurrency a lot, but truth is, I ain’t earned much from it yet. But dat’s no big deal, because now I’m launchin’ ma own meme token on Aptos - $DEV! When the CEO of Aptos is Indian, I’m feelin’ like it’s ma mission, ma duty to drop my token here.I’m knowin' exactly what to do to be the coolest here, 'cause I’m Indian dev, yaar! So if you not scared, come help me build our community together!And listen, yaar, I ain’t no scammier, 100%, dis is ma real passport, you don’t need to worry!<br><br>5WW62msDX5zWTEiLXw2fNMiktCcoztzq68CaEeT9BGd4</p>
+
+	<div style="position: relative; width: 100%; margin-bottom: 10px;">
+		<video id="video" style="width: 100%; display: block;" controls>
+			<source src="media/video.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+    		</video>
+    		<button id="play-button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(0, 0, 0, 0.5); color: white; border: none; padding: 10px; border-radius: 5px;">Play</button>
+	</div>
+
+            <section class="field-row" style="justify-content: flex-end">
+                <a href="https://x.com/IAmTheDogsol" target="_blank">
+                    <button id="twitter-button">Twitter</button>
+                </a>
+                <a href="https://t.me/IAmTheDogSol" target="_blank">
+                    <button id="telegram-button">Telegram</button>
+                </a>
+                <a href="https://pump.uptos.xyz" target="_blank">
+                    <button id="buy-button">BUY</button>
+                </a>
+                <a href="https://dexscreener.com/aptos" target="_blank">
+                    <button id="chart-button">Chart</button>
+                </a>
+            </section>
+        </div>
+    </div>
+    
+    <script>
+        // Add an event listener to the close button
+        document.getElementById('close-button').addEventListener('click', function() {
+            // Hide the window when the close button is clicked
+            document.getElementById('draggable-window-6').style.display = 'none';
+        });
+    </script>
+    
+    
+    
+    
+
+    <script type="module" src="js/index.js"></script>
+    <script src="js/drag.js"></script>
+
+
+</body></html>
